@@ -1,0 +1,214 @@
+/********************************************************************** 
+                        first box!
+**********************************************************************/
+
+
+body    {
+    margin-left: 200px;
+    margin-right: 200px;
+    background-color: rgb(255, 255, 255);
+    /* margin: 0px; */
+}
+#logo {
+    width: 150px;
+    float: right;
+    /* margin-right: 0px; */
+    /* padding: 30px; */
+    color: rgb(73, 69, 69);
+    margin-left: 80px;
+    
+}
+h1  {
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 40px;
+    padding-bottom: 0px;
+    padding-left: 30px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    margin-left: 0px;
+    /* color: whitesmoke; */
+}
+#team  {
+    padding: 40px;
+    padding-top: 0px;
+    margin-top: 10px;
+    padding-bottom: 10px;
+    margin-left: 0px;
+    padding-left: 30px;
+    font-size: 14px;
+    /* color: whitesmoke; */
+}
+#first_ul   {
+    list-style-type: disc;
+    line-height: 22px;
+}
+/* #first_li   {
+    margin-left: 40px;
+} */
+#first_box  {
+    /* margin-left: 120px; */
+    border: 10px;
+    /* background-color: rgb(95, 95, 99); */
+}
+#yup    {
+    float: right;
+}
+
+
+/************************************************************************************** 
+                        second box!
+**************************************************************************************/
+
+
+h3  {
+    margin-left: 80px;
+}
+p   {
+    line-height: 25px;
+    margin-left: 140px;
+    margin-right: 90px;
+}
+
+
+/**************************************************************************************** 
+                        third box!
+****************************************************************************************/
+
+
+span    {
+    margin-left: 40px;
+}
+ul  {
+    line-height: 22px;
+    margin-left: 100px;
+    margin-right: 90px;
+}
+
+
+/*************************************************************************** 
+                    colouring!
+***************************************************************************/
+
+
+li  {
+    color: dimgrey;
+}
+p   {
+    color: #696969;
+}
+
+
+/************************************************************************* 
+                    footer!
+*************************************************************************/
+#hng_logo  {
+    width: 150px;
+    margin-left: 380px;
+}
+#zuri   {
+    margin-left: 410px;
+    text-decoration: none;
+    color: burlywood;
+}
+
+
+
+/*************************************************************************** 
+                    media query for phones
+***************************************************************************/
+
+
+@media screen and (max-width: 900px)    {
+    body  {
+        margin: 0px;
+        margin-top: 2px;
+        margin-bottom: 50px;
+    }
+    #logo   {
+        float: none;
+        margin-left: 90px;
+        width: 120px;
+    }
+    h1  {
+        padding-left: 70px;
+        padding-top: 20px;
+        /* text-align: center; */
+    }
+    h3  {
+        margin-left: 30px;
+    }
+    ul  {
+        margin-left: 10px;
+    }
+    p   {
+        margin-left: 40px;
+    }
+    span  {
+        margin-left: 20px;
+    }
+    #zuri   {
+        margin-left: 135px;
+    }
+    #hng_logo   {
+        margin-left: 100px;
+    }
+
+}
+
+
+/**************************************************************************************** 
+                    wider screens!
+****************************************************************************************/
+
+
+@media screen and (max-width: 1024px)    {
+    #logo   {
+            margin-left: 300px;
+        }
+    footer  {
+            margin-left: 200px;
+        }
+}
+
+
+/******************************************************************************************* 
+                    md for smaller screens!
+*******************************************************************************************/
+
+
+@media screen and (max-width: 635px)   {
+    #logo   {
+        margin-left: 10px;
+    }
+    h1  {
+        font-size: 20px;
+        padding: 0px;
+        margin-left: 40px;
+    }
+    footer  {
+        margin-left: 0px;
+    }
+    #zuri   {
+        margin-left: 90px;
+    }
+    #hng_logo   {
+        margin-left: 60px;
+    }
+}
+
+
+/****************************************************************************************** 
+                    md for mid screens
+******************************************************************************************/
+
+
+@media screen and (max-width: 653px)    {
+    #logo   {
+        margin-left: 10px;
+        width: 80px;
+    }
+    footer  {
+        margin-left: 10px;
+    }
+}
